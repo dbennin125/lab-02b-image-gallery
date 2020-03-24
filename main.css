@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box; 
+    height: 250px;
+    width: 300px;
+}
+
+
+ul {
+   list-style: none;
+   flex-wrap:wrap;
+   height: auto;
+    width: auto;
+}
+
+.gallery-cool {
+    display: flex;
+    flex-wrap: wrap;
+    object-fit: scale-down;
+    height: auto;
+    width: auto;
+
+}
+.gallery-item {
+    display:contents;
+    flex-wrap: wrap;
+    height: auto;
+    width: auto;
+    object-fit:scale-down;
+}
